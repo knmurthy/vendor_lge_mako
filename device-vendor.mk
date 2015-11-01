@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/system/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/mako/proprietary/system/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/lge/mako/proprietary/system/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
+    vendor/lge/mako/proprietary/system/etc/firmware/DxHDCP.cfg:system/etc/firmware/DxHDCP.cfg \
     vendor/lge/mako/proprietary/system/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/lge/mako/proprietary/system/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/mako/proprietary/system/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -142,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/system/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/mako/proprietary/system/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/mako/proprietary/system/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/mako/proprietary/system/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/mako/proprietary/system/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/mako/proprietary/system/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/mako/proprietary/system/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
@@ -171,6 +173,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/system/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
     vendor/lge/mako/proprietary/system/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
     vendor/lge/mako/proprietary/system/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
+    vendor/lge/mako/proprietary/system/vendor/firmware/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
+    vendor/lge/mako/proprietary/system/vendor/firmware/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
+    vendor/lge/mako/proprietary/system/vendor/firmware/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
+    vendor/lge/mako/proprietary/system/vendor/firmware/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
+    vvendor/lge/mako/proprietary/system/vendor/firmware/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
     vendor/lge/mako/proprietary/system/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/mako/proprietary/system/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/mako/proprietary/system/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
